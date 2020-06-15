@@ -7,7 +7,7 @@ const StockGraph = (props) => {
     return null;
   }
   // console.log(props.data.name);
-  const ti = props.data.name["2. Symbol"];
+  const ti = props.data.name["2. Symbol"].toUpperCase();
   let options = {
     rangeSelector: {
       selected: 1,
